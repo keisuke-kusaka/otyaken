@@ -67,6 +67,7 @@ header h1{
   max-width: 960px;
   display: flex;
   flex-direction: column;
+	background: #FFF;
 }
 
 section {
@@ -263,10 +264,28 @@ h2::after {
   height: 100%;
   padding: 5%;
 }*/
+
 .parallax-bg {
   background-image: url('gazou0CH/mainn1.png');
  /* background-image: url('ファイル名/画像名.jpg');*/
   background-attachment: fixed;
+  background-position: center;
+  /*background-size: cover;*/
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+.parallax-bg:before {
+	content: "";
+	display: block;
+  background-image: url('gazou0CH/mainn1.png');
+ /* background-image: url('ファイル名/画像名.jpg');*/
+  position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
   background-position: center;
   /*background-size: cover;*/
   background-repeat: no-repeat;
