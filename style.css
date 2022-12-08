@@ -278,6 +278,44 @@ h2::after {
   padding: 5%;
 }*/
 
+
+/*.otyamoji1 {
+  max-width: 250px;
+  padding: 0.5rem 1.5rem;
+  margin: 1rem auto;
+  background: #fff;
+  color:  black;
+}*/
+.yasaimoji {
+   margin-inline: auto;
+   max-inline-size: max-content;
+
+}
+
+/*ここ*/
+
+	#toggle1 {
+  /* display: none; */
+  visibility: hidden;
+  opacity: 0;
+  transition: 2s;
+}
+.toggle-inner {
+  /* display: none; */
+  transition: 1s;
+  visibility: hidden;
+  opacity: 0;
+}
+#toggle1:checked ~ .toggle-inner {
+  /* display: block; */
+  visibility: visible;
+  opacity: 1;
+  transition: 1s;
+}
+
+/*ここ*/
+
+
 .parallax-bg {
   background-image: url('gazou0CH/mainn1.png');
  /* background-image: url('ファイル名/画像名.jpg');*/
@@ -287,7 +325,6 @@ h2::after {
   background-repeat: no-repeat;
   height: 100vh;
 }
-
 
 .parallax-bg:before {
 	content: "";
