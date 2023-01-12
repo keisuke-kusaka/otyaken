@@ -317,7 +317,7 @@ h2::after {
 
 
 .parallax-bg {
-  background-image: url('gazou0CH/mainn1.png');
+  background-image: url('gazou0CH/rogp4.png');
  /* background-image: url('ファイル名/画像名.jpg');*/
   background-attachment: fixed;
   background-position: center;
@@ -329,7 +329,7 @@ h2::after {
 .parallax-bg:before {
 	content: "";
 	display: block;
-  background-image: url('gazou0CH/mainn1.png');
+  background-image: url('gazou0CH/rogp4.png');
  /* background-image: url('ファイル名/画像名.jpg');*/
   position: fixed;
 	top: 0;
